@@ -164,7 +164,7 @@
 
   <action-record name="default-customer-record"
     model="com.axelor.contact.db.Contact"
-    search="self.emails[].email = 'john.smith@gmail.com'">
+    search="self.emails[].email = 'john.smith@gmail.com'" >
     <field name="title" expr="action:default-title-record"/>
     <field name="firstName" expr="John"/>
     <field name="lastName" expr="Smith"/>

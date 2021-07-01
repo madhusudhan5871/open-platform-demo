@@ -10,8 +10,9 @@
     action="contact.all"/>
 
   <action-view name="contact.all" title="Contacts" model="com.axelor.contact.db.Contact">
+  <view type="form" name="contact-form"/>
     <view type="cards" name="contact-cards"/>
-    <view type="form" name="contact-form"/>
+
     <context name="json-enhance" expr="true"/>
   </action-view>
 
